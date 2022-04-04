@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nikp/loans-application/loans-application/LoanAPI/NUnitTestProject/NUnitTestProject.csproj": {}
+  },
+  "projects": {
+    "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj",
+        "projectName": "Loan.Data",
+        "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj",
+        "packagesPath": "/Users/nikp/.nuget/packages/",
+        "outputPath": "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikp/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikp/loans-application/loans-application/LoanAPI/LoanAPI/LoanAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikp/loans-application/loans-application/LoanAPI/LoanAPI/LoanAPI.csproj",
+        "projectName": "LoanAPI",
+        "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/LoanAPI/LoanAPI.csproj",
+        "packagesPath": "/Users/nikp/.nuget/packages/",
+        "outputPath": "/Users/nikp/loans-application/loans-application/LoanAPI/LoanAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikp/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj": {
+                "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikp/loans-application/loans-application/LoanAPI/LoansUI/LoansUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikp/loans-application/loans-application/LoanAPI/LoansUI/LoansUI.csproj",
+        "projectName": "LoansUI",
+        "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/LoansUI/LoansUI.csproj",
+        "packagesPath": "/Users/nikp/.nuget/packages/",
+        "outputPath": "/Users/nikp/loans-application/loans-application/LoanAPI/LoansUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikp/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikp/loans-application/loans-application/LoanAPI/NUnitTestProject/NUnitTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikp/loans-application/loans-application/LoanAPI/NUnitTestProject/NUnitTestProject.csproj",
+        "projectName": "NUnitTestProject",
+        "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/NUnitTestProject/NUnitTestProject.csproj",
+        "packagesPath": "/Users/nikp/.nuget/packages/",
+        "outputPath": "/Users/nikp/loans-application/loans-application/LoanAPI/NUnitTestProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikp/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj": {
+                "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/Loan.Data/Loan.Data.csproj"
+              },
+              "/Users/nikp/loans-application/loans-application/LoanAPI/LoanAPI/LoanAPI.csproj": {
+                "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/LoanAPI/LoanAPI.csproj"
+              },
+              "/Users/nikp/loans-application/loans-application/LoanAPI/LoansUI/LoansUI.csproj": {
+                "projectPath": "/Users/nikp/loans-application/loans-application/LoanAPI/LoansUI/LoansUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.17.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
