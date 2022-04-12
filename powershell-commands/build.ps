@@ -13,7 +13,7 @@ $env:PATH += ';C:\Users\Administrator\MSBuild\MSBuild\Current\Bin;;C:\Users\Admi
 cd LoanAPI
 
 # Run MSBuild
-dotnet build -p:Configuration=Release -p:DeployOnBuild=true -p:PublishProfile=FolderProfile -p:WebPublishMethod=Package -p:PackageAsSingleFile=true -p:Version=1.2.3.4 --output "$packageFolder\$packageName"
+dotnet build -p:Configuration=Release -p:DeployOnBuild=true -p:PublishProfile=FolderProfile -p:WebPublishMethod=Package -p:PackageAsSingleFile=true -p:Version=1.2.3.4  -p:PackageLocation="$packageFolder\$packageName"
 
 
 Compress-Archive $packageFolder\$packageName* $packageFolder\$packageName.zip
